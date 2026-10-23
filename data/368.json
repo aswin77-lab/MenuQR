@@ -8,7 +8,7 @@
   "whatsapp": "",
   "whatsappEnabled": false,
   "logo": "assets/368/logo.jpg",
-  "theme": "midnight",
+  "theme": "emerald",
   "accent": "#c9a961",
   "enabled": true,
   "categories": [
@@ -33,6 +33,6 @@
       "image": "assets/368/iorc3iau96-00k5.jpg"
     }
   ],
-  "updatedAt": "2026-10-23T12:19:39.414Z",
+  "updatedAt": "2026-10-23T12:24:24.183Z",
   "slug": "368"
 }
