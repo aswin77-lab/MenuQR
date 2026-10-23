@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="emerald">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#06170d">
+  <title>Menu Studio — Owner Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <div id="fileWarn" class="banner" hidden>
+    You opened this page directly from a file. Run it through a web server (see README) or use your GitHub Pages address, otherwise your published menu can't be loaded.
+  </div>
+
+  <div class="shell" id="shell" hidden>
+    <aside class="side" id="side" aria-label="Dashboard navigation">
+      <div class="brand">
+        <div class="mono" aria-hidden="true">M</div>
+        <div><strong>Menu Studio</strong><small id="rName">—</small></div>
+      </div>
+      <nav id="nav"></nav>
+      <div class="spacer"></div>
+      <button class="btn ghost sm" id="switchBtn" type="button">Switch restaurant</button>
+    </aside>
+
+    <div class="main">
+      <header class="top">
+        <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="side">☰</button>
+        <h1 id="title">Overview</h1>
+        <span class="pill warn" id="dirtyPill" hidden>Unpublished changes</span>
+      </header>
+      <div id="view" tabindex="-1"></div>
+    </div>
+  </div>
+
+  <div id="chooser" class="chooser" hidden></div>
+  <dialog id="dlg"></dialog>
+  <div id="toasts" aria-live="polite"></div>
+  <div id="printArea"></div>
+
+  <script src="js/vendor/qrcode.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/zip.js"></script>
+  <script src="js/github.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
