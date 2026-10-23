@@ -1,18 +1,38 @@
 {
-  "slug": "368",
   "name": "368",
   "tagline": "",
   "description": "",
   "address": "",
   "phone": "",
-  "hours": "",
+  "hours": "3 PM to 3 AM",
   "whatsapp": "",
   "whatsappEnabled": false,
   "logo": "assets/368/logo.jpg",
   "theme": "emerald",
   "accent": "#c9a961",
   "enabled": true,
-  "categories": [],
-  "items": [],
-  "updatedAt": ""
+  "categories": [
+    {
+      "id": "cbo49z93p5",
+      "name": "Chicken"
+    }
+  ],
+  "items": [
+    {
+      "id": "iorc3iau96",
+      "name": "Shawarma",
+      "description": "",
+      "price": 150,
+      "offerPrice": 100,
+      "category": "cbo49z93p5",
+      "veg": false,
+      "tags": [
+        "Chef's Special"
+      ],
+      "available": true,
+      "image": "assets/368/iorc3iau96-00k5.jpg"
+    }
+  ],
+  "updatedAt": "2026-10-23T12:15:36.364Z",
+  "slug": "368"
 }
