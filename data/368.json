@@ -31,8 +31,22 @@
       ],
       "available": true,
       "image": "assets/368/iorc3iau96-00k5.jpg"
+    },
+    {
+      "id": "ithjfhhydi",
+      "name": "loaded",
+      "description": "",
+      "price": 140,
+      "offerPrice": 100,
+      "category": "cbo49z93p5",
+      "veg": false,
+      "tags": [
+        "Popular"
+      ],
+      "available": true,
+      "image": "assets/368/ithjfhhydi-uxlk.jpg"
     }
   ],
-  "updatedAt": "2026-10-23T12:24:24.183Z",
+  "updatedAt": "2026-10-23T12:26:34.402Z",
   "slug": "368"
 }
